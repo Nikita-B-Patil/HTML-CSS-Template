@@ -1,0 +1,65 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+button{
+	margin:10px;
+	padding:10px;
+	border:solid;
+	font:bold 16px century schoolbook;
+	background-color:#E9967A;
+	color:black;
+	box-shadow:3px 3px black;
+}
+li > a {
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	color:salmon;
+	text-decoration:none;
+}
+body{
+	color:black;
+	background-image:url(../img/search.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:100%
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-flex:1;
+	margin:30px;
+	
+}
+#main{
+		margin-left:40px;
+		margin-right:40px;
+		display:-webkit-box;
+	    -webkit-box-flex:1;
+	    -webkit-box-orient:vertical;
+}
+#upload_head{
+	padding:10px;
+	text-align:left;
+	background:black;
+	color:white;
+	font:bold 18px century schoolbook;
+}
+#upload_nav{
+	text-align:right;
+	color:white;
+	background:black;
+}
+#upload_nav li{
+	display:inline-block;
+	font:bold 20px century schoolbook;
+	padding:10px;
+	font-size:20px;
+}
+#article{
+	text-align:left;
+	margin:20px;
+	padding:10px;
+	color:black;
+	font:bold 20px century schoolbook;
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Register</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, length=device-length, initial-scale=1.0">
+<link rel="stylesheet" href="../css/register.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<form method="post">
+<div id="main">
+	<header id="reg_head">
+		<h2>Register</h2>
+	</header>
+	<nav id="reg_nav">
+		<ul>
+			<li><a class="anchor" href="../index.html">Home</a></li>
+		</ul>
+	</nav>
+	<section id="reg_sec">
+		Username:          <input type="text" name="username" maxlength="10" /><br /><br />
+		Password:          <input type="password" name="password" maxlength="10" /><br /><br />
+		Confirm Password:  <input type="text" name="conpassword" maxlength="10" /><br /><br />
+		First Name:        <input type="text" name="fname" maxlength="10" /><br /><br />
+		Last Name:         <input type="text" name="lname" maxlength="10" /><br /><br />
+		Mobile Number:     <input type="text" name="mnumber" maxlength="10" /><br /><br /><br />
+		Security Question: <select>
+								<option>Your first pet name?
+								<option>Your first mobile number?
+								<option>Your favorite book?
+								<option>Your old school name?
+			               </select><br><br />
+		Security Answer:   	<input type="text" name="sanswer" maxlength="10" /><br /><br />
+		<button name="register" value="register"><a class="register" href="./searchandlogin.html">Register</a></button><br /><br />
+		</section>		
+</div>	
+</form>
+</body>
+
+</html>

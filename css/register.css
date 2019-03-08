@@ -1,0 +1,79 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	width:100%;
+	color:black;
+	background-image:url(../img/register.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:100%
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-flex:1;
+	margin:30px;	
+}
+header, nav, section{
+	display:block;
+}
+button{
+	font:bold 18px constantia;
+	background:white;
+	padding:5px;
+	box-shadow:3px 3px black;
+	color:black;
+	margin:20px;
+	border:solid;
+	background-color:#E9967A;
+}	
+.anchor:hover {
+	color:salmon;
+	text-decoration:none;
+}
+li > a{
+	color:white;
+	text-decoration:none;
+}	
+.register{
+	color:black;
+	text-decoration:none;
+}
+.register:hover{
+	color:red;
+	text-decoration:none;
+}
+#main{
+		margin:10px;
+		margin-left:40px;
+		margin-right:40px;
+		display:-webkit-box;
+	    -webkit-box-flex:1;
+	    -webkit-box-orient:vertical;
+		}
+#reg_head{
+	padding:10px;
+	text-align:left;
+	background:black;
+	color:white;
+	font:bold 25px century schoolbook;
+}
+#reg_nav{
+	text-align:right;
+	color:white;
+	background:black;
+	
+}
+#reg_nav li{
+	font:bold 20px century schoolbook;
+	padding:10px;
+	font-size:20px;
+	display:inline-block;
+}
+#reg_sec{
+	color:black;
+	margin:10px;
+	padding:10px;
+	text-align:center;
+	font:bold 15px century schoolbook;
+}
