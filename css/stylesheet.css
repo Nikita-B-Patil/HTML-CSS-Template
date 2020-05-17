@@ -73,10 +73,9 @@ header, nav, section, aside, footer{
 	display:block;
 }
 #page_division{
-	margin:10px;
-	display:-webkit-box;
-	-webkit-box-flex:1;
-	-webkit-box-orient:vertical;
+	top: 0;
+	left: 0;
+	width: 100%;	
 }
 #page_header{
 	padding:20px;
