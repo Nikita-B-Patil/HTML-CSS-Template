@@ -6,21 +6,6 @@
 <meta name="viewport" content="width=device-width, length=device-length, initial-scale=1.0">
 <link rel="stylesheet" href="../css/login.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script type="text/javascript">
-	function check_field(){
-	var username = document.getElementById('username').value;
-	var password = document.getElementById('password').value;
-	
-	if(username =="" || password ==""){
-		alert('Please fill in all the fields!!');
-		return false;
-	}
-	else{
-		return true;
-	}
-	
-}
-</script>
 </head>
 <body>
 <form method="post">
@@ -38,7 +23,7 @@
 		<br /><br /><br />
 		Username: <input type="text" name="username" maxlength="10" id="username" /><br /><br />
 		Password: <input type="password" name="password" maxlength="10" id="password" /><br /><br />
-		<button name="login" value="Login" onclick="check_field()" ><a href="./searchandlogin.html" class="login">Login</a></button><br /><br />
+		<button name="login" value="Login" ><a href="./searchandlogin.html" class="login">Login</a></button><br /><br />
 		<footer class="foot">
 		<a href="" >Forgot Password?<br />
 		<a href="" >Not Yet Registered? >> Register!<br />

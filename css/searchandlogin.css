@@ -1,6 +1,6 @@
 *{
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 }
 button{
 	margin:10px;
@@ -11,6 +11,16 @@ button{
 	color:black;
 	box-shadow:3px 3px black;
 }
+li{
+	float:right;
+	font:bold 20px century schoolbook;
+	padding:10px;
+	margin: 10px;
+	font-size:20px;
+	/* line-height: 20px; */
+	list-style-type: none;
+}
+
 li > a {
 	color:white;
 	text-decoration:none;
@@ -19,6 +29,17 @@ a:hover{
 	color:salmon;
 	text-decoration:none;
 }
+input[type="text"],input[type="password"]{
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 5px;
+}
+button{
+	border-radius: 8px;
+	width:90px;
+	border:1px solid coral;
+}
+
 body{
 	width:100%;
 	color:black;
@@ -37,22 +58,15 @@ body{
 		margin:10px;
 }
 #search_head{
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
 	padding:10px;
 	text-align:left;
 	background:black;
 	color:white;
 	font:bold 18px century schoolbook;
-}
-#search_nav{
-	text-align:right;
-	color:white;
-	background:black;
-}
-#search_nav li{
-	display:inline-block;
-	font:bold 20px century schoolbook;
-	padding:10px;
-	font-size:20px;
 }
 #section{
 	text-align:center;
@@ -87,6 +101,7 @@ body{
 	padding:15px;
 	background:black;
 	color:white;
+	border-radius: 8px;
 }
 #aside header{
 	text-align:left;
@@ -94,6 +109,7 @@ body{
 	font:bold 14px century schoolbook;
 	background:black;
 	color:white;
+	border-radius: 8px;
 }
 #search_footer header{
 	text-align:left;
@@ -101,4 +117,19 @@ body{
 	font:bold 16px century schoolbook;
 	background:black;
 	color:white;
+	border-radius: 8px; 
+}
+
+#page_footer{
+	background:black;
+	color:white;
+	text-align:center;
+	margin: 0;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	width:100%;
+	height: 20px;
+	padding: 10px;
+	font-size: 14px;
 }
