@@ -117,10 +117,14 @@ header, nav, section, aside, footer{
 	-webkit-border-radius:25px;
 }
 #page_footer{
-	clear:both;
 	background:black;
 	color:white;
 	text-align:center;
+	margin: 0;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	width:100%;
 }
 #page_footer li{
 	display:inline-block;
