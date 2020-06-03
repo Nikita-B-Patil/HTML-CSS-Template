@@ -17,7 +17,13 @@ body{
 header, nav, section{
 	display:block;
 }
+input[type="text"],input[type="password"]{
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px;
+}
 button{
+	border-radius: 8px;
 	font:bold 18px constantia;
 	background:white;
 	padding:5px;
