@@ -7,7 +7,7 @@ button{
 	padding:10px;
 	border:solid;
 	font:bold 16px century schoolbook;
-	background-color:#E9967A;
+	background-color:rgb(241, 199, 224);
 	color:black;
 	box-shadow:3px 3px black;
 }
@@ -21,10 +21,10 @@ a:hover{
 }
 body{
 	color:black;
-	background-image:url(../img/search.jpg);
+	background-image:url(../img/upload.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:100%	
+	background-position:100%;
 }
 input[type="text"]{
 	border-radius: 10px;
@@ -35,7 +35,7 @@ input[type="text"]{
 }
 button[name="upload"]{
 	border-radius: 10px;
-	border:1px solid coral;
+	border:1px solid rgb(241, 199, 224);
 	height: 40px;
 }
 
@@ -58,7 +58,7 @@ button[name="upload"]{
 	font-size:20px;
 }
 #article{
-	text-align:left;
+	text-align: center;
 	margin:20px;
 	padding:10px;
 	color:black;

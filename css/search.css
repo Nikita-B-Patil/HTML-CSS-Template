@@ -41,6 +41,7 @@ body{
 }
 #search_head{
 	padding:10px;
+	height:25px;
 	text-align:left;
 	background:black;
 	color:white;
@@ -53,9 +54,8 @@ body{
 }
 #search_nav li{
 	display:inline-block;
-	font:bold 20px century schoolbook;
-	padding:10px;
-	font-size:20px;
+	font:bold 18px century schoolbook;
+	padding:10px 6px;
 }
 #section{
 	text-align:center;
