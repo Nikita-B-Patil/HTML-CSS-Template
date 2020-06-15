@@ -37,7 +37,7 @@ body{
 	background-image:url(../img/search.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:100%
+	background-position: center;
 }
 #search_head{
 	padding:10px;

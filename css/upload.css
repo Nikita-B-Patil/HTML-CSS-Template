@@ -24,14 +24,15 @@ body{
 	background-image:url(../img/upload.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:100%;
+	background-position:center; 
 }
 input[type="text"]{
-	border-radius: 10px;
 	padding: 10px;
 	margin-top: 5px;
+	width: 35%;
 	height: 20px;
 	text-indent: 10px;
+	border-radius: 10px;
 }
 button[name="upload"]{
 	border-radius: 10px;
